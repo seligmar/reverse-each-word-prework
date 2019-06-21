@@ -13,8 +13,7 @@ def reverse_each_word(sentence)
   new_sentence = []
   var1.collect do |word|
     var2 = word.reverse
-end
-new_sentence << var2
+    new_sentence << var2
+    new_sentence.join(" ")
 end 
-new_sentence.join(" ")
 end 
